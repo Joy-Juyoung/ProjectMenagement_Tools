@@ -111,7 +111,7 @@ function MyPofileEdit() {
 
   // const { username } = useParams();
   const { data } = useQuery(SEE_PROFILE_QUERY, {
-    variables: { username: "ckdgksdl" }, //<--- 광우한테 물어보자
+    variables: { username: "ckdgksdl" },
     }
   );
   // console.log(data.seeProfile.username);
